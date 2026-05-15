@@ -3,6 +3,7 @@
 import { useTranslations } from "next-intl";
 import { FadeIn } from "@/components/motion/FadeIn";
 import { Target, Eye, Heart, Award } from "lucide-react";
+import Image from "next/image";
 
 export default function AboutSection() {
   const t = useTranslations("about");
@@ -10,6 +11,28 @@ export default function AboutSection() {
   return (
     <section className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        {/* Team Photo */}
+        <FadeIn direction="up">
+          <div className="relative w-full h-[400px] md:h-[500px] rounded-3xl overflow-hidden mb-16">
+            <Image
+              src="/images/team.jpg"
+              alt="Их Маргад Эмнэлгийн баг"
+              fill
+              className="object-cover"
+              priority
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-[#0C909E]/90 via-[#0C909E]/40 to-transparent" />
+            <div className="absolute bottom-0 left-0 right-0 p-8 text-center">
+              <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
+                {t("aboutTitle")}
+              </h2>
+              <p className="text-white/90 text-lg max-w-3xl mx-auto leading-relaxed">
+                {t("aboutText")}
+              </p>
+            </div>
+          </div>
+        </FadeIn>
+
         {/* Mission */}
         <div className="text-center mb-16">
           <FadeIn direction="up">
