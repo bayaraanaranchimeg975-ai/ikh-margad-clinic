@@ -4,6 +4,7 @@ import { useState } from "react";
 import { useLocale, useTranslations } from "next-intl";
 import { Link, usePathname } from "@/i18n/routing";
 import { Menu, X } from "lucide-react";
+import Image from "next/image";
 
 const LABELS: Record<string, string> = { en: "EN", mn: "МН" };
 
@@ -44,11 +45,13 @@ export default function Header() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2">
-            <div className="w-8 h-8 bg-[#0C909E] rounded-lg flex items-center justify-center">
-              <svg className="w-5 h-5 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" />
-              </svg>
-            </div>
+            <Image 
+              src="/images/logo.svg" 
+              alt="ИХ МАРГАД ЭМНЭЛЭГ"
+              width={32}
+              height={32}
+              className="w-8 h-8"
+            />
             <span className="font-semibold text-[#19374E] text-lg hidden sm:block">
               ИХ МАРГАД
             </span>

@@ -2,6 +2,7 @@
 
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/routing";
+import Image from "next/image";
 
 export default function Footer() {
   const t = useTranslations("nav");
@@ -37,11 +38,13 @@ export default function Footer() {
           <div className="flex flex-col md:flex-row items-center justify-between gap-6">
             {/* Logo */}
             <div className="flex items-center gap-2">
-              <div className="w-8 h-8 bg-white rounded-lg flex items-center justify-center">
-                <svg className="w-5 h-5 text-[#0C909E]" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                  <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" />
-                </svg>
-              </div>
+              <Image 
+                src="/images/logo.svg" 
+                alt="ИХ МАРГАД ЭМНЭЛЭГ"
+                width={32}
+                height={32}
+                className="w-8 h-8"
+              />
               <span className="font-semibold text-lg">ИХ МАРГАД</span>
             </div>
 
