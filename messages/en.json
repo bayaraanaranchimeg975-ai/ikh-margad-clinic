@@ -15,6 +15,18 @@
     "ctaPrimary": "Book Appointment",
     "ctaSecondary": "Learn More"
   },
+  "featuredServices": {
+    "title": "Featured Services",
+    "subtitle": "Featured",
+    "description": "Specialized endoscopic diagnostics and treatment for digestive system",
+    "learnMore": "Learn More",
+    "service1Title": "Gastrointestinal Endoscopy",
+    "service1Desc": "Stomach and colon endoscopic diagnostics. Performed with high precision using the latest equipment.",
+    "service2Title": "Gastroscopy",
+    "service2Desc": "Complete endoscopic examination of stomach and esophagus. Early detection of cancer possible.",
+    "service3Title": "Colonoscopy",
+    "service3Desc": "Colon endoscopic diagnostics. Early detection and effective treatment of diseases."
+  },
   "about": {
     "title": "About Us",
     "description": "IKH MARGAD CLINIC - Specialized Gastroenterology Clinic",
