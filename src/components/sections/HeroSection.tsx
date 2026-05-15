@@ -33,7 +33,7 @@ export default function HeroSection() {
             </FadeIn>
 
             <FadeIn direction="up" delay={0.3}>
-              <p className="text-[#657D90] text-lg mb-8 max-w-lg">
+              <p className="text-[#657D90] text-lg mb-8 max-w-lg leading-relaxed">
                 {t("description")}
               </p>
             </FadeIn>

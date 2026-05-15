@@ -20,7 +20,7 @@ export default function Footer() {
       <div className="bg-[#E4F7F8] py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-2xl font-semibold text-[#19374E] mb-4">
-            Эрт илрүүлж – Эрүүл амьдаръя
+            Эрт илрүүлэгт – Эрүүл амьдаръя
           </h2>
           <Link
             href="/contact"
@@ -37,10 +37,12 @@ export default function Footer() {
           <div className="flex flex-col md:flex-row items-center justify-between gap-6">
             {/* Logo */}
             <div className="flex items-center gap-2">
-              <div className="w-8 h-8 bg-white rounded-full flex items-center justify-center">
-                <span className="text-[#0C909E] font-bold text-sm">IM</span>
+              <div className="w-8 h-8 bg-white rounded-lg flex items-center justify-center">
+                <svg className="w-5 h-5 text-[#0C909E]" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                  <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" />
+                </svg>
               </div>
-              <span className="font-semibold text-lg">IKH MARGAD</span>
+              <span className="font-semibold text-lg">ИХ МАРГАД</span>
             </div>
 
             {/* Nav Links */}

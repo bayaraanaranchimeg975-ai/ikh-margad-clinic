@@ -11,22 +11,22 @@ export default function ContactSection() {
     {
       icon: MapPin,
       label: t("address"),
-      value: "Улаанбаатар хот, Сүхбаатар дүүрэг, 1-р хороо, Энхтайвны өргөн чөлөө-15",
+      value: t("addressValue"),
     },
     {
       icon: Phone,
       label: t("phone"),
-      value: "+976 11 33 44 55",
+      value: t("phoneValue"),
     },
     {
       icon: Mail,
       label: t("email"),
-      value: "info@ikhmargad.mn",
+      value: t("emailValue"),
     },
     {
       icon: Clock,
       label: t("hours"),
-      value: "Да-Ба: 08:00-18:00, Бя: 09:00-14:00",
+      value: t("hoursValue"),
     },
   ];
 

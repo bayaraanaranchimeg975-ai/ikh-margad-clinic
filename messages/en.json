@@ -10,22 +10,48 @@
   },
   "hero": {
     "title": "IKH MARGAD CLINIC",
-    "subtitle": "Building Trust in Healthcare",
-    "description": "Mongolia's leading healthcare service provider. We offer comprehensive preventive, diagnostic, and treatment services.",
+    "subtitle": "Specialized Gastroenterology Clinic",
+    "description": "We work to protect everyone's health and quality of life by early detection, accurate diagnosis, and effective treatment of digestive system diseases.",
     "ctaPrimary": "Book Appointment",
     "ctaSecondary": "Learn More"
   },
   "about": {
     "title": "About Us",
-    "description": "IKH MARGAD CLINIC was established in 2010 and today provides various services with the most advanced technological equipment in Mongolia."
+    "description": "IKH MARGAD CLINIC - Specialized Gastroenterology Clinic",
+    "missionLabel": "Our Mission",
+    "missionTitle": "Our Mission",
+    "missionText": "We work to protect everyone's health and quality of life by early detection, accurate diagnosis, and effective treatment of digestive system diseases.",
+    "visionLabel": "Our Vision",
+    "visionTitle": "Our Vision",
+    "visionText": "To become a benchmark clinic that meets international standards by developing diagnostic and treatment methods suited to Mongolian characteristics based on advanced technology.",
+    "feature1Title": "Compassionate Care",
+    "feature1Desc": "Treating every patient with care and compassion",
+    "feature2Title": "Professional Team",
+    "feature2Desc": "Experienced, highly qualified doctors",
+    "feature3Title": "Advanced Technology",
+    "feature3Desc": "International standard equipment",
+    "feature4Title": "Early Detection",
+    "feature4Desc": "Early diagnosis and effective treatment"
   },
   "services": {
     "title": "Services",
-    "description": "Our main services"
+    "description": "Specialized gastroenterology diagnostics and treatment",
+    "service1Title": "Gastroenterology Examination",
+    "service1Desc": "Complete examination of stomach, intestines, esophagus, and colon",
+    "service2Title": "Endoscopy",
+    "service2Desc": "Gastric and colon endoscopic diagnostics",
+    "service3Title": "Laboratory Tests",
+    "service3Desc": "Detailed blood, biochemistry, and virus testing",
+    "service4Title": "Ultrasound Diagnostics",
+    "service4Desc": "Ultrasound examination of stomach, liver, and gallbladder",
+    "service5Title": "Treatment",
+    "service5Desc": "Diagnosis and treatment of digestive diseases",
+    "service6Title": "Prevention",
+    "service6Desc": "Early detection, consultation, and monitoring"
   },
   "team": {
     "title": "Our Team",
-    "description": "Experienced doctors"
+    "description": "Qualified, experienced doctors"
   },
   "testimonials": {
     "title": "Patient Testimonials",
@@ -39,9 +65,13 @@
     "title": "Contact Us",
     "description": "Get in touch with us",
     "address": "Address",
+    "addressValue": "Shine Tereg Plaza",
     "phone": "Phone",
+    "phoneValue": "7575-2999",
     "email": "Email",
+    "emailValue": "info@ikhmargad.mn",
     "hours": "Working Hours",
+    "hoursValue": "Mon-Fri: 08:00-18:00, Sat: 09:00-14:00",
     "submit": "Send",
     "namePlaceholder": "Your name",
     "emailPlaceholder": "Email address",

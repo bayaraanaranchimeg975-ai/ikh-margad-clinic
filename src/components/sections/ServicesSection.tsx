@@ -10,33 +10,33 @@ export default function ServicesSection() {
   const services = [
     {
       icon: Stethoscope,
-      title: "Ерөнхий оношлогоо",
-      description: "Бүрэн биеийн үзлэг, эрүүл мэндийн үнэлгээ",
+      title: t("service1Title"),
+      description: t("service1Desc"),
     },
     {
       icon: Microscope,
-      title: "Лаборатори шинжилгээ",
-      description: "Өндөр нарийвчлалтай шинжилгээний үйлчилгээ",
+      title: t("service2Title"),
+      description: t("service2Desc"),
     },
     {
       icon: HeartPulse,
-      title: "Зүрх судас",
-      description: "Зүрхний эхо, ЭКГ, судасны шинжилгээ",
+      title: t("service3Title"),
+      description: t("service3Desc"),
     },
     {
       icon: Baby,
-      title: "Эх барих эмэгтэйчүүд",
-      description: "Жирэмсний хяналт, үргэлжлүүлэн хяналт",
+      title: t("service4Title"),
+      description: t("service4Desc"),
     },
     {
       icon: Bone,
-      title: "Ясны нөхөн сэргээлт",
-      description: "Яс, үе мөчний оношлогоо, эмчилгээ",
+      title: t("service5Title"),
+      description: t("service5Desc"),
     },
     {
       icon: Eye,
-      title: "Нүдний эмчилгээ",
-      description: "Нүдний бүрэн үзлэг, оношлогоо",
+      title: t("service6Title"),
+      description: t("service6Desc"),
     },
   ];
 
