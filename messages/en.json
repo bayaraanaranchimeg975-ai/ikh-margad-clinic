@@ -1,0 +1,54 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "team": "Team",
+    "testimonials": "Testimonials",
+    "faq": "FAQ",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "IKH MARGAD CLINIC",
+    "subtitle": "Building Trust in Healthcare",
+    "description": "Mongolia's leading healthcare service provider. We offer comprehensive preventive, diagnostic, and treatment services.",
+    "ctaPrimary": "Book Appointment",
+    "ctaSecondary": "Learn More"
+  },
+  "about": {
+    "title": "About Us",
+    "description": "IKH MARGAD CLINIC was established in 2010 and today provides various services with the most advanced technological equipment in Mongolia."
+  },
+  "services": {
+    "title": "Services",
+    "description": "Our main services"
+  },
+  "team": {
+    "title": "Our Team",
+    "description": "Experienced doctors"
+  },
+  "testimonials": {
+    "title": "Patient Testimonials",
+    "description": "What people say about us"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "description": "Questions you may have"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "description": "Get in touch with us",
+    "address": "Address",
+    "phone": "Phone",
+    "email": "Email",
+    "hours": "Working Hours",
+    "submit": "Send",
+    "namePlaceholder": "Your name",
+    "emailPlaceholder": "Email address",
+    "phonePlaceholder": "Phone number",
+    "messagePlaceholder": "Message"
+  },
+  "footer": {
+    "rights": "© 2026 IKH MARGAD CLINIC. All rights reserved."
+  }
+}
